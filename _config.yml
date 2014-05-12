@@ -11,11 +11,11 @@ pygments: true
 title : WangYou's Blog
 tagline: Site Tagline
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : You Wang
+  email : wang13you@gmail.com
+  github : 13self
+  twitter : not yet
+  feedburner : not yet
   markdown: kramdown
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
