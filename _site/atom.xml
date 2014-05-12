@@ -4,7 +4,7 @@
  <title>WangYou Blog</title>
  <link href="http://13self.github.io/" rel="self"/>
  <link href="http://13self.github.io"/>
- <updated>2014-05-12T21:33:38+08:00</updated>
+ <updated>2014-05-12T21:57:49+08:00</updated>
  <id>http://13self.github.io</id>
  <author>
    <name>You Wang</name>
@@ -17,8 +17,7 @@
    <link href="http://13self.github.io/lessons/2014/05/12/firstday"/>
    <updated>2014-05-12T00:00:00+08:00</updated>
    <id>http://13self.github.io/lessons/2014/05/12/firstday</id>
-   <content type="html">
-&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+   <content type="html">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;今天先是看了下node.js的一个教程，发现里面的编辑器不错，代码补全能力很强大，于是对Atom兴趣大增，搞了好半天还是没学会怎么做一个插件（过了一会，我发现教程里用的其实不是Atom）。
 Angularjs的相关插件在Mac下要用“Control”+“Space”才能补全代码，感觉好麻烦，感觉理想情况下应该是自动补全，或Tab键补全，但我修改Lanuage-Javascript这个插件也没成功，就先放下了。
 想起来，昨天装jekyllbootsrtap还有个问题没解决，“The submodule &lt;code&gt;_theme_packages/hooligan&lt;/code&gt; was not properly initialized with a &lt;code&gt;.gitmodules&lt;/code&gt; file.”
