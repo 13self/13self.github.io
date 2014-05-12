@@ -1,0 +1,10 @@
+# Site settings
+title: selfish
+email: wang13you@gmail.com
+description: "U seeing the word!"
+baseurl: ""
+url: "http://ejingyou.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
