@@ -2,11 +2,6 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-
-markdown:kramdown
-
-
-
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
@@ -21,7 +16,7 @@ author :
   github : username
   twitter : username
   feedburner : feedname
-
+  markdown: kramdown
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
