@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : WangYou's Blog
+title : WangYou Blog
 tagline: UC the World!
 author :
   name : You Wang

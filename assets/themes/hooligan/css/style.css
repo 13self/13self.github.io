@@ -120,7 +120,14 @@ hr {
   text-align: center;
   /* center align it with the container */
 }
-
+footer{
+	background:black;
+	height:60px;
+}
+footer .container p{
+		text-align:center;
+		line-height:60px;
+}
 /* Content */
 /* line 110, ../_sass/_base.scss */
 .content {

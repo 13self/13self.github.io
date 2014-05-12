@@ -1,16 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>WangYou's Blog</title>
+ <title>WangYou Blog</title>
  <link href="http://13self.github.io/" rel="self"/>
  <link href="http://13self.github.io"/>
- <updated>2014-05-12T20:39:17+08:00</updated>
+ <updated>2014-05-12T21:33:38+08:00</updated>
  <id>http://13self.github.io</id>
  <author>
    <name>You Wang</name>
    <email>wang13you@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Firstday</title>
+   <link href="http://13self.github.io/lessons/2014/05/12/firstday"/>
+   <updated>2014-05-12T00:00:00+08:00</updated>
+   <id>http://13self.github.io/lessons/2014/05/12/firstday</id>
+   <content type="html">
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;今天先是看了下node.js的一个教程，发现里面的编辑器不错，代码补全能力很强大，于是对Atom兴趣大增，搞了好半天还是没学会怎么做一个插件（过了一会，我发现教程里用的其实不是Atom）。
+Angularjs的相关插件在Mac下要用“Control”+“Space”才能补全代码，感觉好麻烦，感觉理想情况下应该是自动补全，或Tab键补全，但我修改Lanuage-Javascript这个插件也没成功，就先放下了。
+想起来，昨天装jekyllbootsrtap还有个问题没解决，“The submodule &lt;code&gt;_theme_packages/hooligan&lt;/code&gt; was not properly initialized with a &lt;code&gt;.gitmodules&lt;/code&gt; file.”
+今天又重装了下，可还是报这个错，解决方法中的这句不会“Commit and push your changes to trigger another build on our servers.”
+最后我把“_theme_packages”这个目录删除了，于是不报错了。目前也没发现有什么影响，于是用Atom写了今天这个。
+### What is Jekyll?&lt;/p&gt;
+
+&lt;p&gt;Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
+dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as “a simple, blog aware, static site generator”.&lt;/p&gt;
+
+&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
+
+&lt;p&gt;This website is created with Jekyll. &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Sites&quot;&gt;Other Jekyll websites&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-does-jekyll-do&quot;&gt;What does Jekyll Do?&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is a ruby gem you install on your local system.
+Once there you can call &lt;code&gt;jekyll --server&lt;/code&gt; on a directory and provided that directory
+is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files,
+compute categories, tags, permalinks, and construct your pages from layout templates and partials.&lt;/p&gt;
+
+&lt;p&gt;Once parsed, Jekyll stores the result in a self-contained static &lt;code&gt;_site&lt;/code&gt; folder.
+The intention here is that you can serve all contents in this folder statically from a plain static web-server.&lt;/p&gt;
+
+&lt;p&gt;You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags
+on each request, Jekyll does this once &lt;em&gt;beforehand&lt;/em&gt; and caches the &lt;em&gt;entire website&lt;/em&gt; in a folder for serving statically.&lt;/p&gt;
+
+&lt;h2 id=&quot;content-in-jekyll&quot;&gt;Content in Jekyll&lt;/h2&gt;
+
+&lt;p&gt;Content in Jekyll is either a post or a page.
+These content “objects” get inserted into one or more templates to build the final output for its respective static-page.&lt;/p&gt;
+
+&lt;h3 id=&quot;posts-and-pages&quot;&gt;Posts and Pages&lt;/h3&gt;
+
+&lt;p&gt;Both posts and pages should be written in markdown, textile, or HTML and may also contain Liquid templating syntax.
+Both posts and pages can have meta-data assigned on a per-page basis such as title, url path, as well as arbitrary custom meta-data.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Jekyll Introduction</title>
