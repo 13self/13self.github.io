@@ -1,6 +1,6 @@
 ---
 layout: page
-title: U see World!
+title: U seeing World!
 tagline: experience and thoughts
 ---
 {% include JB/setup %}
