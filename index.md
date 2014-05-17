@@ -1,6 +1,6 @@
 ---
 layout: page
-title: U C the World!
+title: U C the World !
 tagline: experiences and feelings
 ---
 
